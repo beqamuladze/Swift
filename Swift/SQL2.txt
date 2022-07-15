@@ -1,0 +1,3 @@
+select t.FirstName, t.LastName from [dbo].[Teacher] t
+join [dbo].[Pupil] p on t.TeacherId=p.TeacherId
+where p.FirstName='Giorgi'
